@@ -1,2 +1,16 @@
-# 8051_Development_Utilities
-8051 support routines and development exercises.
+# 8051 Development Utilities
+
+[Back to portfolio](https://github.com/shawier93/Projects-using-Assembly-for-8051)
+
+Keep startup code and unfinished experiments clearly separate from complete application examples.
+
+## Applications
+
+| Application | Description |
+| --- | --- |
+| [Code Comparison Demonstration](Code%20Comparison%20Demonstration/README.md) | Demonstrate a comparison whose two operands come from the same memory value. |
+| [Empty Assembly Templates](Empty%20Assembly%20Templates/README.md) | Preserve an empty or directive-only assembly file as an incomplete exercise. |
+| [LCD Greeting — Incomplete](LCD%20Greeting%20Incomplete/README.md) | Attempt to display a greeting stored in program memory. The current draft does not correctly print the complete message. |
+| [Nursery Booking Form — Incomplete](Nursery%20Booking%20Form%20Incomplete/README.md) | Collect two choices for a nursery booking: a category and whether first-class service is wanted. This is an unfinished form; it does not calculate a fee. |
+| [Keil C51 Startup Module](Keil%20C51%20Startup%20Module/README.md) | Initialize the configured memory and stack before a linked C program starts. |
+| [Key Encoder Polling Sketch](Key%20Encoder%20Polling%20Sketch/README.md) | Read a key from an encoder, wait for release, and repeat. The main loop does not send the decoded key to a display. |
