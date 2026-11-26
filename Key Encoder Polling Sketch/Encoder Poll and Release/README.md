@@ -54,8 +54,4 @@ B -->|Results or control signals| E["Output: Decoded value only"]
 
 **Port registers:** `P1`, `P2`, `P3.2`, `P3.3`, `P3.6`, `P3.7`.
 
-## Technical limitations
-
-- The polling loop calls KEY and waits for release. SEND and WRDATA are defined separately.
-
 [Assembly source](source.asm)

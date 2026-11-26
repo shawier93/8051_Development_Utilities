@@ -59,10 +59,12 @@ fIRSTCLASS:	MOV A,#01H
 	NOO:CJNE A,#1,NOO1 
     SJMP OKK
     NOO1:ACALL ERR
+	SJMP FIRSTCLASS
 	OKK:
     MOV 31H,A;
 	ACALL DELAY
 	ACALL DELAY
+	SJMP $
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;ERROR ENTERING 
