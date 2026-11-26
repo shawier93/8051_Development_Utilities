@@ -64,8 +64,4 @@ B -->|Results or control signals| E["Output: LCD and internal result bytes"]
 
 The accepted-choice route continues directly into the error routine. That routine ends with a return instruction even though this route did not call it. Execution after that return is unreliable. The invalid-choice route also returns into the save-choice code instead of asking for another key. No fee-calculation instructions follow the form.
 
-## Build and test
-
-1. Open the [assembly source](source.asm) in an 8051 assembler or simulator.
-2. Review the technical limitations and configure the peripherals required by this implementation.
-3. Check the expected result using the example inputs.
+[Assembly source](source.asm)

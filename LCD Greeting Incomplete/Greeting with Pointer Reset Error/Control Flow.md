@@ -12,7 +12,7 @@ Control-flow blocks are indexed by source line. Calls resume at the instruction 
 
 [Section 1](#section-1)
 
-## Destinations requiring review
+## Unresolved Branch Targets
 
 `BACK`. A repeated label is also unresolved because it has more than one candidate target.
 

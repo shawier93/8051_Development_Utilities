@@ -58,8 +58,4 @@ B -->|Results or control signals| E["Output: Decoded value only"]
 
 - The polling loop calls KEY and waits for release. SEND and WRDATA are defined separately.
 
-## Build and test
-
-1. Open the [assembly source](source.asm) in an 8051 assembler or simulator.
-2. Review the technical limitations and configure the peripherals required by this implementation.
-3. Check the expected result using the example inputs.
+[Assembly source](source.asm)

@@ -2,7 +2,7 @@
 
 [Back to portfolio](https://github.com/shawier93/Projects-using-Assembly-for-8051)
 
-Keep startup code and unfinished experiments clearly separate from complete application examples.
+8051 startup routines, peripheral utilities and preliminary implementations.
 
 ## Applications
 

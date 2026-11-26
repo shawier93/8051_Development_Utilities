@@ -6,9 +6,6 @@ Attempt to display a greeting stored in program memory. The current draft does n
 
 **Implementation:** Greeting With Pointer Reset Error
 
-**Input:** see input example.  
-**Output:** see result example.
-
 ## Inputs and results
 
 | Parameter | Description |
@@ -57,8 +54,4 @@ B -->|Results or control signals| E["Output: See result example"]
 
 - The initial ORG lacks an address. SET BP1.2 and SETBP1.5 are malformed. The loop also reloads DPTR at START.
 
-## Build and test
-
-1. Open the [assembly source](source.asm) in an 8051 assembler or simulator.
-2. Review the technical limitations and configure the peripherals required by this implementation.
-3. Check the expected result using the example inputs.
+[Assembly source](source.asm)

@@ -12,7 +12,7 @@ Start from the first executable block or the entry selected by the calling appli
 
 [Section 1](#section-1) · [Section 2](#section-2)
 
-## Destinations requiring review
+## Unresolved Branch Targets
 
 `?C_START`, `STARTUP1`. A repeated label is also unresolved because it has more than one candidate target.
 

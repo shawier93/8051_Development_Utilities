@@ -6,7 +6,7 @@ Initialize the configured memory and stack before a linked C program starts.
 
 ## Implementations
 
-This is vendor startup support, not a standalone application. Its original copyright notice is retained. It needs the linked runtime and application to complete execution.
+This is vendor startup support, not a standalone application. It needs the linked runtime and application to complete execution.
 
 | Implementation | Input | Output |
 | --- | --- | --- |
